@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
   printf("%f\n", ans);
 }      
   /* 
-  // To
+  // Compares the first string within argv to the attributes (ex: x,+,-,/) of the 4 functions
   if (strncmp(argv[1], "x", 1) == 0){
     ans = num1 * num2;
   }
@@ -55,24 +55,5 @@ int main(int argc, char* argv[]) {
   }
   
   printf("%f \n", ans);
-}
-
-    
-  if (argc == 1) {
-    printf("Not enough arguments!\n");
-    return(-1); // nonzero exit code indicates problem
-  }
-  int cmd = atoi(argv[1]);
-  switch (cmd) {
-  case 0:
-    printf("zero\n");
-    break;
-  case 1:
-    printf("one\n");
-    break;
-  default:
-    printf("Unrecognized arg\n");
-  }
-  return 0;
 }
 */
